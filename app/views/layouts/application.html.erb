@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+ <title>Geriatricsconcern</title>
+<%= stylesheet_link_tag "applications", :media => "all","data-turbolinks-track" => true %>
+ <%= stylesheet_link_tag "main1", :media => "all","data-turbolinks-track" => true %>
+<%= javascript_include_tag "applications", "data-turbolinks-track" => true %>
+<%= csrf_meta_tags %>
+ <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+  <div style="width: 950px; margin: 0px auto;">
+<%= yield %>
+  </div>
+</body>
+</html>
