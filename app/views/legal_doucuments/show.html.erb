@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Do not resuscitate:</b>
+  <%= @legal_doucument.do_Not_Resuscitate %>
+</p>
+
+<p>
+  <b>Healthcare directive:</b>
+  <%= @legal_doucument.healthcare_Directive %>
+</p>
+
+<p>
+  <b>Power of attorney:</b>
+  <%= @legal_doucument.power_of_Attorney %>
+</p>
+
+<p>
+  <b>Will:</b>
+  <%= @legal_doucument.will %>
+</p>
+
+<p>
+  <b>Trust:</b>
+  <%= @legal_doucument.trust %>
+</p>
+
+<p>
+  <b>Wishes:</b>
+  <%= @legal_doucument.wishes %>
+</p>
+
+<p>
+  <b>Letter of authorization:</b>
+  <%= @legal_doucument.letter_of_Authorization %>
+</p>
+
+<p>
+  <b>Pension papers:</b>
+  <%= @legal_doucument.pension_Papers %>
+</p>
+
+<p>
+  <b>Location of original:</b>
+  <%= @legal_doucument.location_of_Original %>
+</p>
+
+
+<%= link_to 'Edit', edit_legal_doucument_path(@legal_doucument) %> |
+<%= link_to 'Back', legal_doucuments_path %>

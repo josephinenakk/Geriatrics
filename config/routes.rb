@@ -1,4 +1,36 @@
 Geriatrics::Application.routes.draw do
+  get "providers/attorney_insurance_providers"
+
+  get "providers/financial_providers"
+
+  get "providers/healthcare_providers"
+
+  get "providers/caregiver_providers"
+
+  get "providers/attorney_Insurance"
+
+  get "providers/_Agent"
+
+  get "providers/financial"
+
+  get "providers/_Providers"
+
+  resources :personal_properties
+
+  resources :legal_doucuments
+
+  resources :insurances
+
+  resources :loans_credit_cards
+
+  resources :banking_financials
+
+  resources :medical_histories
+
+  resources :medications
+
+  resources :clients
+
   get "post/home"
 
   get "post/Geriatric_Care_Manager"
@@ -13,10 +45,7 @@ Geriatrics::Application.routes.draw do
 
   get "post/Other_Documents"
 
-  get "pages/index"
-get "pages/about"
-  get "about", :to =>'pages#about'
-  root:to =>'pages#index'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -73,7 +102,5 @@ get "pages/about"
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
-  %w[about contact cv].each do |page|
-get page, controller: 'pages', action: page
-end
+ 
 end

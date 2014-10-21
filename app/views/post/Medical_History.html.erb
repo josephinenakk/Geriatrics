@@ -17,7 +17,7 @@
 </header>
 <p class="jose">The Medical section includes information specific to the Geriatric Client from both the geriatric client data points and healthcare provider data points,
 along with sections on medical history and medications.</P>
-<a href="">Fill the Information-personal:</a>
+<%=link_to "Medical", clients_path ,:alt=>'medical'%>
 
 
 </article>
@@ -29,7 +29,7 @@ along with sections on medical history and medications.</P>
 <p class="tuna">The Medical History section provides information relative to an individual Geriatric Client’s medical history and background; date of occurrence, diagnosis,
 physician, and associated documents can be uploaded such as discharge paperwork, photos of x-rays, etc. Medical History can be input, updated, or deleted in
  this section by any user who has administrative authority.</P>
-<a href="">Fill the Information-Medical History:</a>
+<%=link_to "Medical History",medical_histories_path,:alt=>'medical history'%>
 </article>
 <article>
 <header>
@@ -39,7 +39,7 @@ physician, and associated documents can be uploaded such as discharge paperwork,
 in this section by any user who has administrative authority. Medication information may be relative to prescription or over the counter medications
 and provides the user a location to upload a picture of the actual medication or bottle
 </P>
-<a href="">Fill the Information-Medical:</a>
+<%=link_to "Medications",medications_path,:alt=>'medications information'%>
 
 </article>
 

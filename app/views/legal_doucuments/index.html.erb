@@ -1,0 +1,39 @@
+<h1>Listing legal_doucuments</h1>
+
+<table>
+  <tr>
+    <th>Do not resuscitate</th>
+    <th>Healthcare directive</th>
+    <th>Power of attorney</th>
+    <th>Will</th>
+    <th>Trust</th>
+    <th>Wishes</th>
+    <th>Letter of authorization</th>
+    <th>Pension papers</th>
+    <th>Location of original</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @legal_doucuments.each do |legal_doucument| %>
+  <tr>
+    <td><%= legal_doucument.do_Not_Resuscitate %></td>
+    <td><%= legal_doucument.healthcare_Directive %></td>
+    <td><%= legal_doucument.power_of_Attorney %></td>
+    <td><%= legal_doucument.will %></td>
+    <td><%= legal_doucument.trust %></td>
+    <td><%= legal_doucument.wishes %></td>
+    <td><%= legal_doucument.letter_of_Authorization %></td>
+    <td><%= legal_doucument.pension_Papers %></td>
+    <td><%= legal_doucument.location_of_Original %></td>
+    <td><%= link_to 'Show', legal_doucument %></td>
+    <td><%= link_to 'Edit', edit_legal_doucument_path(legal_doucument) %></td>
+    <td><%= link_to 'Destroy', legal_doucument, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Legal doucument', new_legal_doucument_path %>
