@@ -9,11 +9,7 @@ Geriatrics::Application.routes.draw do
 
   get "providers/attorney_Insurance"
 
-  get "providers/_Agent"
-
-  get "providers/financial"
-
-  get "providers/_Providers"
+ 
 
   resources :personal_properties
 

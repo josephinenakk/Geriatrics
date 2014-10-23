@@ -24,6 +24,13 @@ width:100%;
 #finefine{
 float:right;
 }
+#big1{
+max-width: 1000px;
+margin:20px 0px;
+
+-webkit-box-orient: vertical;
+-webkit-box-flex: 1;
+}
 #big_wrapper{
 max-width: 1000px;
 margin:20px 0px;
@@ -38,7 +45,13 @@ background: #66CCCC;
 border:3px solid black;
 padding:50px;
 }
-
+#header1{
+max-width: 1000px;
+height:150px;
+background:DarkSeaGreen;
+border:3px solid black;
+padding:50px;
+}
 #top_header{
 max-width: 1000px;
 height:150px;
@@ -61,11 +74,25 @@ font:bold 14px Tahoma;
 /*display:-wedkit-box;*/
 -webkit-box-orient:horizontal;
 }
+#section1{
+border:2px solid green;
+-webkit-box-flex:1;
+margin:30px;
+padding:20px;
+}
 #main_section{
 border:2px solid green;
 -webkit-box-flex:1;
 margin:30px;
 padding:20px;
+}
+#news1{
+
+border:2px  solid  gray;
+width:925px;
+margin: 10px 0px;
+padding:10px;
+background:LightSeaGreen ;
 }
 #side_news{
      
@@ -73,13 +100,21 @@ border:2px  solid  gray;
 width:925px;
 margin: 10px 0px;
 padding:10px;
-background:LightSeaGreen ;
+background:RosyBrown ;
 }
 article {
-background-color:DarkSeaGreen;
-border:1px solid LightSeaGreen;
+background-color:Lavender;
+border:1px solid red;
 padding :20px;
 margin-bottom:20px;
+}
+#footer1{
+    background-color:LightSeaGreen;
+text-align:center;
+width:928px;
+padding:10px;
+border-top:2px #00FFFF;
+border-bottom:2px #00FFFF;
 }
 #the_footer{
     background-color:LightSeaGreen;
