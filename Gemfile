@@ -18,10 +18,13 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'jquery-rails'
+gem 'faker', '~> 1.4.3'
+gem 'will_paginate'
+gem 'devise'
 end
 
-gem 'jquery-rails'
-gem 'faker', '~> 1.4.3'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
