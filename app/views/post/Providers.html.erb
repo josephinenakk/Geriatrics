@@ -38,7 +38,7 @@ Information based on assigned roles.</P>
  initially sets up Healthcare Providers in Geriatricsconcern.com with all pertinent information. Healthcare Providers can be supplied user
 credentials which allow for read only access to the Geriatric Manager, Geriatric Client, Healthcare Providers and specific Geriatric Client Information.
 </P>
-<a href=""> Healthcare Providers</a>
+<%=link_to "Healthcare Providers",providers_healthcare_providers_path,:alt=>'providers/healthcare_providers'%>
 </a>
 </article>
 <article>
@@ -50,7 +50,7 @@ organizations or individuals, full-time/part-time, in-home care or care faciliti
 Geriatric Client, and there is no limit to the number of providers registered. The Geriatric Manager or Geriatric Client initially sets up Caregiver
 Providers in Geriatricsconcern.com with all pertinent information.
 </P>
-<a href="">Caregiver Providers</a>
+<%=link_to "Caregiver Providers",providers_caregiver_providers_path%>
 </article>
 <article>
 <header>
@@ -61,7 +61,7 @@ Geriatric Client. Multiple types of each provider can be associated with each Ge
 The Geriatric Manager or Geriatric Client initially sets up Attorney/Insurance Agent Providers in Geriatricsconcern.com with all pertinent information.
 
 </P>
-<a href="">Attorney/Insurance Agent Providers</a>
+<%=link_to "Attorney/Insurance Agent Providers",providers_attorney_insurance_providers_path, :alt=>'Attorney/Insurance Agent Providers'%>
 </article>
 <article>
 <header>
@@ -71,7 +71,7 @@ The Geriatric Manager or Geriatric Client initially sets up Attorney/Insurance A
 Multiple types of each provider can be associated with each Geriatric Client, and there is no limit to the number of providers registered. The Geriatric
 Manager or Geriatric Client inputs Financial Providers information with all pertinent information.
 </P>
-<a href="">Financial Providers</a>
+<%=link_to "Financial Providers",providers_financial_providers_path%>
 </article>
 
 

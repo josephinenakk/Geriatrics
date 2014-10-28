@@ -16,4 +16,5 @@ class PostController < ApplicationController
 
   def Other_Documents
   end
+ 
 end
