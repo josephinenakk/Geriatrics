@@ -65,7 +65,7 @@ padding:50px;
 #top_menu{
 border:1px solid blue;
 background:#DDA0DD;
-color:white;
+
 }
 #top_menu li{
 display:inline-block;
@@ -146,7 +146,7 @@ font: bold 20px Tahoma;
 }
 #big1{
 max-width: 1000px;
-border:20px solid gold;
+border:20px solid burlywood;
 margin:20px 0px;
 -webkit-box-orient: vertical;
 -webkit-box-flex: 1;
@@ -181,7 +181,7 @@ padding:30px;
 }
 #div3{
 max-width: 700px;
-background:LightBlue  ;
+background:SlateGray;
 margin: 20px 80px;
 float:right;
 border:3px solid black;
@@ -219,10 +219,21 @@ padding:20px;
 }
 #div8{
 max-width: 800px;
- background: Thistle ;
+ background: #E5D6CE ;
 margin: 20px 80px;
 border:3px solid black;
 padding:20px;
 -webkit-box-orient: vertical;
 -webkit-box-flex: 1;
+}
+#top_menuf{
+border:1px solid blue;
+background:#94B270;
+
+}
+#top_menuf li{
+display:inline-block;
+list-style:none;
+padding:15px;
+font:bold 14px Tahoma;
 }
